@@ -1,9 +1,9 @@
 <template>
   <div class="site-canvas">
-    <div id="header" class="absolute w-full">
-      <div class="py-3 flex justify-between items-center container">
+    <div id="header" class="container absolute">
+      <div class="py-3 flex justify-between items-center">
         <a href="/" class="no-underline flex items-center text-grey-darkest z-20">
-          <span>Logo</span>
+          <span class="text-white">Logo</span>
         </a>
         <navbar/>
       </div>
@@ -53,6 +53,11 @@ a {
 
 .object-cover {
   object-fit: cover;
+}
+
+#header {
+  right: 0;
+  left: 0;
 }
 </style>
 

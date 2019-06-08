@@ -70,13 +70,7 @@ export default {
       // Add plugin names as key and arguments as value
       // Disable a plugin by passing false as value
       plugins: {
-        "postcss-url": {},
-        tailwindcss: "./tailwind.js",
-        cssnano: {
-          preset: "default",
-          discardComments: { removeAll: true },
-          zIndex: false
-        }
+        tailwindcss: "./tailwind.js"
       }
     },
     extend(config, ctx) {}
